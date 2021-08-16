@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeV2</title>
+    <script src='snake.js' defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            
+            <div class="title">
+                <p>Snake V2</p>
+            </div>
+
+            <div class="scorediv">
+                <p id='scoretag'>Score: 0</p>
+            </div>
+    
+        </div>
+    
+        <div class="main">
+    
+            <canvas width='600' height='600' id='canvas'>
+            </canvas>
+
+        </div>
+    
+    </div>
+
+
+    <style>
+
+    *{
+        margin: 0; padding: 0; box-sizing: border-box; 
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0.5rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #canvas{
+        border: 1px solid black;
+    }
+    
+    </style>
+
+</body>
+</html>
